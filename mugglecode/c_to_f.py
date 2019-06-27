@@ -8,7 +8,7 @@ import matplotlib.pyplot as mp
 
 """
 
-csv_path = "/Users/yushufeng/Downloads/temp.csv"
+csv_path = "/Users/renyushu/Downloads/temp.csv"
 
 
 def collect_data(csv_path):
