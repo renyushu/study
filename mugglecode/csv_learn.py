@@ -1,7 +1,7 @@
 import csv
 
 
-csv_file = "/Users/yushufeng/Downloads/data/bikeshare/2017-q1_trip_history_data.csv"
+csv_file = "/Users/yushufeng/Downloads/MeetingMsg.csv"
 
 # with open(csv_file, 'r') as f:
 #     f_csv = csv.reader(f)
@@ -36,6 +36,6 @@ with open(csv_file, 'r') as f:
     f_csv = csv.DictReader(f)
     for row in f_csv:
         print(row)
-        print(row['Start date'])
+        # print(row['Start date'])
         break
         # OrderedDict([('Duration (ms)', '221834'), ('Start date', '2017-01-01 00:00:41'), ('End date', '2017-01-01 00:04:23'), ('Start station number', '31634'), ('Start station', '3rd & Tingey St SE'), ('End station number', '31208'), ('End station', 'M St & New Jersey Ave SE'), ('Bike number', 'W00869'), ('Member type', 'Member')])
