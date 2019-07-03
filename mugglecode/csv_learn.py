@@ -10,7 +10,7 @@ csv_file = "/Users/yushufeng/Downloads/MeetingMsg.csv"
 #     for row in f_csv:
 #         print(row) # 行
 #         print(row[0])
-#         print(row[2])
+# #         print(row[2])
 #         break
 
 # 使用命名元祖获取
