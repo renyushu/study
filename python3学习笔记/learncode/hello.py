@@ -1,3 +1,8 @@
 import sys
 
-print(sys.platform)
+# print(sys.platform)
+
+s = 'h'
+si = ord(s)
+print(si)
+print(chr(104))
