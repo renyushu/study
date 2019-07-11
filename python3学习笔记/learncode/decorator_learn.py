@@ -99,23 +99,69 @@ def foo():
 #         return '<p>' + value + '</p>'
 #     return wrapper
 
+#
+# def tag(h,name):
+#     print(locals())
+#     print(globals())
+#     def decorator(func):
+#         def wrapper(text): # 这个参数从哪里来
+#             print(locals())
+#             value = func(text)
+#             return "<{h}><{name}>{value}<{name}><{h}>".format(h=h,name=name, value=value)
+#         return wrapper
+#
+#     return decorator
+#
+#
+# @tag('h', 'div')     # @tag: my_upper = tag(my_upper)
+# def my_upper(text):
+#     value = text.upper()
+#     return value
+#
+#
+# print(my_upper('hello'))
+
+# # 给函数实现一个日志功能，日志里面记录函数名，函数执行所花的时间，通过指定参数控制日志级别
+# #
+#
+#
+# def a(name):
+#     return name
+#
+#
+# def wrapper(level):
+#     def log_info(func):
+#         pass
+#
+#     return log_info
 
 
-def tag(name):
-    def decorator(func):
-        def wrapper(text): # 这个参数从哪里来
-            value = func(text)
-            return "<{name}>value<{name}>".format(name=name, value=value)
-        return wrapper
+# ----------------------------------------
 
-    return decorator
+# 12步教你理解python装饰器
+# 1，函数
+# 2，作用域： 每个函数都会创建一个作用域，函数拥有自己的命名空间，这意味着当在函数体里遇到变量时，python首先在该函数的命名空间中查找
+#       local 和 global
 
 
-@tag('div')     # @tag: my_upper = tag(my_upper)
-def my_upper(text):
-    value = text.upper()
-    return value
+# a_string = 'this is a global variable'
+# def foo():
+#     print(locals()) #
+#
+#
+# foo() # 将函数内部的local namespace里的内容打印出来
+# print(globals()) # globals()返回的是一个字典对象，它所包含了所有python知道的变量名
 
+# 3，变量解析规则
+# **python的作用域规则：变量的创建总会创建一个新的local变量，但是变量的访问（包括修改）会先查找local作用域然后顺着最邻近的作用域去寻找匹配**
+# **全局变量可以被访问到（如何是可变类型，甚至是可以被改变），但是（默认情况下）不能被赋值**
 
-print(my_upper('hello'))
+# 变量的生命周期
+# def foo():
+#     x =1 # 每当函数被调用时，变量X被创建，调用结束时变量被销毁。每次调用namespace都会重新构建
+#     print(x)
+#
+# print(x)
 
+# 5，函数的参数
+#
