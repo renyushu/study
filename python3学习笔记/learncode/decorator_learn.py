@@ -163,5 +163,134 @@ def foo():
 #
 # print(x)
 
-# 5，函数的参数
+# 5，函数的参数：参数名成为了该函数的local变量
+# # 6，内嵌函数
+# #   python允许创建嵌套函数，这意味这我们可以在函数内声明函数并且所有的作用域和声明周期规则也同样适用
 #
+# y = 2
+# def outer():
+#     x = 1
+#     def inner():
+#         print(x) # python寻找一个名为x的local变量，但是失败了，然后在最邻近的外层作用域里搜寻，这个作用域是另外一个函数（inner函数对外层作用域拥有访问权限，最起码有读和修改的权限）
+#
+#         print(y)
+#     return inner
+#
+# inner = outer()
+# inner()
+
+# 7，函数是一等公民
+# 函数可以作为参数传入函数中，也可以当作返回值
+
+# def add(x, y):
+#     return x + y
+#
+# def apply(func, x, y):
+#     return func(x, y)
+#
+# res  = apply(add, 2, 3)
+# print(res)
+
+def outer():
+    def inner():
+        print('inside inner')
+    return inner
+
+"""
+每当outer函数被调用时inner函数就会重新被定义一次，但是如果inner函数不被（outer)返回那么当超出outer的作用域后，inner将不复存在了
+"""
+
+# 8，闭包
+#
+# def outer():
+#     x = 1
+#     def inner():
+#         print(x)
+#     return inner
+#
+# foo = outer()
+#             # 按照python的作用域规则，这是没有问题的
+#              # 但是从python变量的生命周期来看，变量x是outer的local变量，这意味着只有当outer函数运行时它才存在。只有当outer返回后我们才能调用inner，因此依照
+#              # 这点来看，我们调用 inner的时候，x已经不复存在了，那么某个运行时错误可能会出现。
+#              # 事实上并非如此，返回的函数inner正常运行。
+#              #  python支持一种叫做闭包的特性，这意味着定义于非全局作用域的inner函数在定义时记得它们的外层作用域长什么样。
+#             #  这可以通过查看inner函数的func_closure属性来查看，它包含了外层作用域里的变量。
+# print(foo.func_closure)
+
+# 9, 装饰器: 一个decorator只是一个带有一个函数作为参数并返回一个替换函数的闭包
+
+# def outer(func):
+#     def inner():
+#         print('before some func')
+#         ret = func()
+#         return ret + 1
+#     return inner
+#
+#
+# def foo():
+#     return 1
+#
+# inner = outer(foo)
+# i = inner()
+# print(i)
+
+# 10,语法糖
+
+# 11，*args and **kwargs
+# def one(*args):
+#     print(*args)
+#
+# # print(one())
+# # print(one(1,2))
+# one()
+# one(1, 3)
+
+
+# def multiply(*args):
+#     z = 1
+#     for num in args:
+#         z = z * num
+#     print(z)
+#
+# # multiply(2)
+# # multiply(2, 3)
+# # multiply(2, 3, 3, 4, 4, 5)
+#
+#
+# def print_kwargs(**kwargs):
+#     print(kwargs)
+#
+#
+# print_kwargs(kwargs_1='hello', kwargs_2='world', kwargs_3='python') # {'kwargs_1': 'hello', 'kwargs_2': 'world', 'kwargs_3': 'python'}
+
+# def print_values(**kwargs):
+#     for key, value in kwargs.items():
+#         print('The value of {} is {}'.format(key, value))
+#
+#
+# print_values(my_name='Sammy', your_name='Casey', her_name='Pig')
+# # 使用**kwargs为我们提供了在程序中使用关键字参数的灵活性。当我们使用**kwargs作为参数时，我们不需要知道我们最终想要传递给函数的参数数量
+
+
+# 12,更通用的装饰器
+def logger(func):
+    def inner(*args, **kwargs):
+        print('Arguments were %s, %s' % (args, kwargs))
+        return func(*args, **kwargs)
+
+    return inner
+
+
+@logger
+def foo1(x, y=2):
+    return x * y
+
+foo1(5, 4)
+foo1(3)
+# foo1()
+
+
+@logger
+def foo():
+    return 2
+
