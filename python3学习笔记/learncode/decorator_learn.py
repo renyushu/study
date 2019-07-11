@@ -125,16 +125,31 @@ def foo():
 # #
 #
 #
+
+
+# def wrapper(level):
+#     print(globals())
+#     print('globals run')
+#     # print(locals())
+#     def log_info(func):
+#         # print(locals())
+#         print(level)
+#         print(func.__name__)
+#         print('time')
+#
+#         def inner(text):
+#             # print(locals())
+#             return func(text)
+#         return inner
+#     return log_info
+#
+#
+# # @wrapper('info')
 # def a(name):
 #     return name
 #
 #
-# def wrapper(level):
-#     def log_info(func):
-#         pass
-#
-#     return log_info
-
+# wra = wrapper('info', a('andy'))
 
 # ----------------------------------------
 
@@ -191,10 +206,10 @@ def foo():
 # res  = apply(add, 2, 3)
 # print(res)
 
-def outer():
-    def inner():
-        print('inside inner')
-    return inner
+# def outer():
+#     def inner():
+#         print('inside inner')
+#     return inner
 
 """
 每当outer函数被调用时inner函数就会重新被定义一次，但是如果inner函数不被（outer)返回那么当超出outer的作用域后，inner将不复存在了
@@ -272,25 +287,57 @@ def outer():
 # # 使用**kwargs为我们提供了在程序中使用关键字参数的灵活性。当我们使用**kwargs作为参数时，我们不需要知道我们最终想要传递给函数的参数数量
 
 
-# 12,更通用的装饰器
-def logger(func):
-    def inner(*args, **kwargs):
-        print('Arguments were %s, %s' % (args, kwargs))
-        return func(*args, **kwargs)
+# # 12,更通用的装饰器
+# def logger(func):
+#     def inner(*args, **kwargs):
+#         print('Arguments were %s, %s' % (args, kwargs))
+#         return func(*args, **kwargs)
+#
+#     return inner
+#
+#
+# @logger
+# def foo1(x, y=2):
+#     return x * y
+#
+# foo1(5, 4)
+# foo1(3)
+# # foo1()
+#
+#
+# @logger
+# def foo():
+#     return 2
 
-    return inner
+
+import functools
+from functools import wraps
 
 
-@logger
-def foo1(x, y=2):
-    return x * y
+def log(text):
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):
+            print('%s %s():' % (text, func.__name__))
+            return func(*args, **kwargs)
+        return wrapper
+    return decorator
 
-foo1(5, 4)
-foo1(3)
-# foo1()
+
+# @log('run')
+def now(name):
+    print(name)
 
 
-@logger
-def foo():
-    return 2
+# now = log('run')(now('python')) 这是错误调用方式
+now = log('run')(now)
+now('n')
 
+"""
+log返回的是一个函数，返回的哪个函数也是返回一个函数
+"""
+# def fu(*args, **kwargs):
+#     print(args)
+#     print(kwargs)
+#
+# fu('222', 1, 3, kw_1='python')
