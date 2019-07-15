@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2019-07-13 16:29:36</p>
+                <p class='attribute'><strong>Duration: </strong>5.43 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 6, Pass: 5, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>LearnANDTest.test_methond.TestMethod</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case_login</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>-------测试开始-------
+
+{'userName': 'yuuuuu2016@163.com', 'password': '12345678', 'sign': 'c9628e50454497d5b89556b57ba523b6', 'platform': 'mobile-android'}
+-------测试结束-------
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case_login_password_error</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>-------测试开始-------
+
+符合预期
+-------测试结束-------
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case_login_username_lenth_error</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>-------测试开始-------
+
+{'photo': '', 'status': '2', 'token': '', 'userName': ''}
+-------测试结束-------
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_case_login_username_must_error</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>-------测试开始-------
+
+Expecting value: line 1 column 1 (char 0)
+None
+-------测试结束-------
+
+</p><p style="color:maroon;">TypeError: 'NoneType' object is not subscriptable</p><p style="color:maroon;">Traceback (most recent call last):
+  File "/Users/yushufeng/github/api_test_master/LearnANDTest/test_methond.py", line 99, in test_case_login_username_must_error
+    self.assertEqual(res.res['status'], '2', "测试通过，符合预期")
+TypeError: 'NoneType' object is not subscriptable
+2019-07-13 16:29:38,923 - send_request - INFO - 正在发送post请求...
+2019-07-13 16:29:38,923 - send_request - INFO - 正在发送post请求...
+2019-07-13 16:29:38,923 - send_request - INFO - 正在发送post请求...
+2019-07-13 16:29:38,923 - send_request - INFO - 发送的url是：http://hkaccountcdn.chinesetvall.com/app/member/doLogin.do，发送的data是：{'password': '12345678', 'sign': 'c9628e50454497d5b89556b57ba523b6', 'platform': 'mobile-android'}
+2019-07-13 16:29:38,923 - send_request - INFO - 发送的url是：http://hkaccountcdn.chinesetvall.com/app/member/doLogin.do，发送的data是：{'password': '12345678', 'sign': 'c9628e50454497d5b89556b57ba523b6', 'platform': 'mobile-android'}
+2019-07-13 16:29:38,923 - send_request - INFO - 发送的url是：http://hkaccountcdn.chinesetvall.com/app/member/doLogin.do，发送的data是：{'password': '12345678', 'sign': 'c9628e50454497d5b89556b57ba523b6', 'platform': 'mobile-android'}
+2019-07-13 16:29:39,845 - send_request - INFO - 发送请求成功
+2019-07-13 16:29:39,845 - send_request - INFO - 发送请求成功
+2019-07-13 16:29:39,845 - send_request - INFO - 发送请求成功
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case_login_username_none_error</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>-------测试开始-------
+
+{'photo': '', 'status': '2', 'token': '', 'userName': ''}
+-------测试结束-------
+
+</p>
+                            </td>
+                        </tr>
+                        <tr class='success'>
+                            <td class="col-xs-10">test_case_login_username_type_error</td>
+                            <td class="col-xs-1">
+                                <span class="label label-success" style="display:block;width:40px;">Pass</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>-------测试开始-------
+
+{'photo': '', 'status': '2', 'token': '', 'userName': ''}
+-------测试结束-------
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 6, Pass: 5, Error: 1 -- Duration: 5.43 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

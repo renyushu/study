@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70afd393-738b-4faf-8161-ee438e14c96b" name="Default Changelist" comment="" />
+    <list default="true" id="70afd393-738b-4faf-8161-ee438e14c96b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,37 +92,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/git学习.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/github无法提交.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-            </state>
           </provider>
         </entry>
       </file>
@@ -215,9 +196,9 @@
         <option value="$PROJECT_DIR$/python3学习笔记/python学习手册学习笔记.txt" />
         <option value="$PROJECT_DIR$/mugglecode/speed_monitor.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/unintest_learn/unittest学习笔记.txt" />
         <option value="$PROJECT_DIR$/Python3LearnNote/git学习.py" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py" />
       </list>
     </option>
   </component>
@@ -400,7 +381,7 @@
       <workItem from="1562132684868" duration="447000" />
       <workItem from="1562243152624" duration="46329000" />
       <workItem from="1562901264554" duration="4783000" />
-      <workItem from="1563155250203" duration="5454000" />
+      <workItem from="1563155250203" duration="6164000" />
     </task>
     <servers />
   </component>
@@ -437,7 +418,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148745000" />
+    <option name="totallyTimeSpent" value="149455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -450,7 +431,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="203" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" sideWeight="0.5062389" side_tool="true" weight="0.17823948" />
@@ -808,13 +788,6 @@
     <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/import_demo.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1" />
@@ -839,10 +812,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3LearnNote/git学习.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        <state relative-caret-position="399">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
