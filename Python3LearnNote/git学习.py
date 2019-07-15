@@ -1,4 +1,6 @@
 
+# git learn
+
 
 """
 
@@ -9,5 +11,13 @@
             origin: 远程库的默认名字
         推送本地内容到远程库：
              git push -u origin master tip: 第一次推送需要加参数 -u, 否则 git push origin master就可以
+
+
+# 撤销修改
+    git checkout -- filename.txt
+
+# 删除文件
+
+
 
 """
