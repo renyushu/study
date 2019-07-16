@@ -1,0 +1,40 @@
+
+# 命令行运行unittest
+    python -m unittest test_module1 test_module2 （两个不同模块）
+    python -m unittest test_module.TestClass        （一个模块下的类
+    python -m unittest test_module.TestClass.test_method    （一个模块下的类的一个测试方法（测试用例））
+
+    测试模块可以通过文件路径指定:
+                        python -m unittest -v tests/test_something.py
+    -v : 获取更详细的信息
+
+# 探索性测试
+
+    命令行实现：python -m unittest discover == python -m unittest
+
+         参数：
+                -v 更详细的输出结果
+                -s 开始进行搜索的目录（默认当前目录）
+                -p 用于匹配测试文件的模式（默认为  test*.py)
+                -t 指定项目的最上层目录(通常为开始时所在目录）
+                    -s/-p/-t是位置参数
+                        python -m unittest discover -s project_directory -p "*_test.py"
+                            ||
+                        python -m unittest discover project_directory "*_test.py"
+
+
+# test fixture
+    1, 测试用例表示为：unittest.TestCase的实例
+    2，setUp
+    3, tearDown
+
+    这样的一个测试代码运行的环境被称为 test fixture 。一个新的 TestCase 实例作为一个测试脚手架，用于运行各个独立的测试方法。在运行每个测试时，setUp() 、tearDown() 和 __init__() 会被调用一次。
+
+# 组织TestSuite
+     1，如何控制用例执行的顺序？用例执行可能有先后顺序
+        需要使用TestSuite，我们添加到TestSuite中的case是按添加顺序执行
+
+     2，如果有多个测试文件，如何组织用例？使用TestSuite
+
+
+
