@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70afd393-738b-4faf-8161-ee438e14c96b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Python3LearnNote/run_all.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnANDTest/test_methond.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnANDTest/test_methond.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearnANDTest/test_methond_to_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/LearnANDTest/test_methond_to_report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_suite.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_suite.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +19,7 @@
     <SUITE FILE_PATH="coverage/study$Unittests_in_test_mathfunc_py.coverage" NAME="Unittests in test_mathfunc.py Coverage Results" MODIFIED="1563255855628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/unintest_learn" />
     <SUITE FILE_PATH="coverage/study$Unittests_for_test_Test.coverage" NAME="Unittests for test.Test Coverage Results" MODIFIED="1560175882042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unintest_learn" />
     <SUITE FILE_PATH="coverage/study$tool.coverage" NAME="tool Coverage Results" MODIFIED="1561623302170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
+    <SUITE FILE_PATH="coverage/study$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1563265203392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote" />
     <SUITE FILE_PATH="coverage/study$c_to_f.coverage" NAME="c_to_f Coverage Results" MODIFIED="1561555593379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
     <SUITE FILE_PATH="coverage/study$Unittests_for_test_Test_test03.coverage" NAME="Unittests for test.Test.test03 Coverage Results" MODIFIED="1560172042715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unintest_learn" />
     <SUITE FILE_PATH="coverage/study$list_demo.coverage" NAME="list_demo Coverage Results" MODIFIED="1561105651400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
@@ -76,16 +81,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+            <state relative-caret-position="130">
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="62" />
               <folding>
-                <element signature="e#0#59#0" expanded="true" />
+                <element signature="e#26#85#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Python3LearnNote/run_all.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearnANDTest/test_methond_to_report.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" lean-forward="true" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearnANDTest/test_methond.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1785">
+              <caret line="112" column="42" selection-end-line="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/HtmlReport.html">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -93,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/HTMLTestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="823" column="21" lean-forward="true" selection-start-line="823" selection-start-column="21" selection-end-line="823" selection-end-column="21" />
+            <state relative-caret-position="4872">
+              <caret line="823" column="21" selection-start-line="823" selection-start-column="21" selection-end-line="823" selection-end-column="21" />
               <folding>
                 <element signature="e#3215#3230#0" expanded="true" />
               </folding>
@@ -141,9 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test/move_test.py" />
-        <option value="$PROJECT_DIR$/testdir/move_test.py" />
-        <option value="$PROJECT_DIR$/mugglecode/wenjian_guilei.py" />
         <option value="$PROJECT_DIR$/mugglecode/send_wechat.py" />
         <option value="$PROJECT_DIR$/mugglecode/show_file.py" />
         <option value="$PROJECT_DIR$/mugglecode/show_py_lib.py" />
@@ -192,6 +221,9 @@
         <option value="$PROJECT_DIR$/git_learn/git学习.py" />
         <option value="$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_suite.py" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/run_all.py" />
+        <option value="$PROJECT_DIR$/LearnANDTest/test_methond.py" />
+        <option value="$PROJECT_DIR$/LearnANDTest/test_methond_to_report.py" />
       </list>
     </option>
   </component>
@@ -272,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_suite">
+  <component name="RunManager" selected="Python.run_all">
     <configuration name="HTMLTestRunner" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,6 +319,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/HTMLTestRunner.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="run_all" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3LearnNote" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3LearnNote/run_all.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,21 +369,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test.TestStringMethods.test_split" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3LearnNote/unintest_learn" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestStringMethods.test_split&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in test_mathfunc.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -364,11 +403,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.run_all" />
         <item itemvalue="Python.test_suite" />
         <item itemvalue="Python.HTMLTestRunner" />
         <item itemvalue="Python tests.Unittests in test_mathfunc.py" />
         <item itemvalue="Python tests.Unittests in test.py" />
-        <item itemvalue="Python tests.Unittests for test.TestStringMethods.test_split" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +432,7 @@
       <workItem from="1562132684868" duration="447000" />
       <workItem from="1562243152624" duration="46329000" />
       <workItem from="1562901264554" duration="4783000" />
-      <workItem from="1563155250203" duration="15670000" />
+      <workItem from="1563155250203" duration="17491000" />
     </task>
     <servers />
   </component>
@@ -430,7 +469,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158961000" />
+    <option name="totallyTimeSpent" value="160782000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,14 +482,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="203" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.21173105" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.21173105" />
       <window_info id="Structure" order="1" sideWeight="0.5062389" side_tool="true" weight="0.17823948" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972662" visible="true" weight="0.626788" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972662" weight="0.626788" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39844617" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32982087" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32982087" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50027335" side_tool="true" weight="0.40885141" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27828348" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.260078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32968834" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32968834" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.21173105" />
+      <window_info id="Structure" order="1" sideWeight="0.5062389" side_tool="true" weight="0.17823948" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972662" weight="0.626788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39844617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -460,40 +522,19 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50027335" side_tool="true" weight="0.40885141" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.27857935" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.2608213" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.260078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" weight="0.32968834" />
       <window_info anchor="right" id="Database" order="4" weight="0.32968834" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/python3学习笔记/yaml_learn/yaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/site-packages/wxpy/api/bot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wechatproject/timing_send_joke.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -803,26 +844,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="823" column="21" lean-forward="true" selection-start-line="823" selection-start-column="21" selection-end-line="823" selection-end-column="21" />
+        <state relative-caret-position="4872">
+          <caret line="823" column="21" selection-start-line="823" selection-start-column="21" selection-end-line="823" selection-end-column="21" />
           <folding>
             <element signature="e#3215#3230#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/HtmlReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        <state relative-caret-position="130">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="62" />
           <folding>
-            <element signature="e#0#59#0" expanded="true" />
+            <element signature="e#26#85#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/HtmlReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/LearnANDTest/test_methond.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="112" column="42" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnANDTest/test_methond_to_report.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" lean-forward="true" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/run_all.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
