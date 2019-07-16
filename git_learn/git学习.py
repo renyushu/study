@@ -1,6 +1,13 @@
 
 # git learn
+# git是目前世界上最先进的分布式版本控制系统
+# 工作原理
+#    remote -- pull --> workspace
+#           -- fetch/clone --> repository -- checkout --> workspace
+#
+#    workspace -- add --> index -- commit--> repository -- push --> remote
 
+#
 
 """
 
@@ -17,6 +24,17 @@
     git checkout -- filename.txt
 
 # 删除文件
+    git mv
+
+# 本地版本回退
+    git log --pretty=oneline : 查看提交日志
+    git reset --hard commit_id : 回退到特定版本
+
+# 远程仓库版本回退：
+    1，先本地回退
+    2，在强制推送远程仓库：git push -f origin master
+
+
 
 
 
