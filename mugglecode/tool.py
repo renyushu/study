@@ -3,7 +3,7 @@ from tkinter import *
 from tkinter.filedialog import *
 # ui# ui update
 # business
-info = {'path':[]}
+info = {'path': []}
 
 
 def make_app():

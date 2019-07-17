@@ -35,6 +35,11 @@
     2，在强制推送远程仓库：git push -f origin master
 
 
+# 删除本地文件夹
+    git rm out build -r -f // 删除本地out和build文件夹
+    git commit -am "删除out和build文件夹" // 添加备注
+    git push origin master // 提交至服务端
+
 
 
 
