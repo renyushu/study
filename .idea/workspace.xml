@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70afd393-738b-4faf-8161-ee438e14c96b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/os_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/run_all.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/run_all.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git_learn/git学习.py" beforeDir="false" afterPath="$PROJECT_DIR$/git_learn/git学习.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mugglecode/tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/mugglecode/tool.py" afterDir="false" />
-    </list>
+    <list default="true" id="70afd393-738b-4faf-8161-ee438e14c96b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +126,7 @@
         <entry file="file://$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -279,37 +271,6 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="git_learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="interview" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="LearnANDTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="mugglecode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="Python3LearnNote" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="study" type="462c0819:PsiDirectoryNode" />
-              <item name="Python3LearnNote" type="462c0819:PsiDirectoryNode" />
-              <item name="unintest_learn" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -488,7 +449,7 @@
       <workItem from="1562243152624" duration="46329000" />
       <workItem from="1562901264554" duration="4783000" />
       <workItem from="1563155250203" duration="18418000" />
-      <workItem from="1563331046570" duration="6988000" />
+      <workItem from="1563331046570" duration="9095000" />
     </task>
     <servers />
   </component>
@@ -525,7 +486,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168697000" />
+    <option name="totallyTimeSpent" value="170804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,12 +500,12 @@
   <component name="ToolWindowManager">
     <frame x="1920" y="203" width="1440" height="877" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.21459228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.21459228" />
       <window_info id="Structure" order="1" sideWeight="0.5062389" side_tool="true" weight="0.17823948" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49972662" visible="true" weight="0.39011705" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972662" weight="0.39011705" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39844617" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -853,7 +814,7 @@
     <entry file="file://$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="20" column="32" lean-forward="true" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
