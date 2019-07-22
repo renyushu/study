@@ -1,0 +1,39 @@
+
+appium安装教程
+
+1,wifi需要翻墙
+
+2，java
+
+3,git
+
+4,ruby
+
+5,brew
+
+6,node
+
+7,npm
+
+8,appium
+    npm install -g appium
+
+9, npm install wd
+
+问题1，运行appium-doctor提示命令找不到
+解决办法：npm install appium-doctor -g
+
+问题2，已经安装过Xcode但是依然提示没有安装？
+解决办法：
+    xcode-select -p/sudo xcode-select -s /Applications/Xcode.app/Contents/Developer/
+
+question3: 安装carthage   brew install Carthage
+
+question4:  source .bash_profile
+
+question5:  open is not installed
+            解决办法：npm -g install opencv4nodejs
+
+
+
+

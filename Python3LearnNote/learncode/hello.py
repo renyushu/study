@@ -1,4 +1,3 @@
-from python3学习笔记.learncode.decorator_learn import outer
 import sys
 
 
@@ -10,9 +9,9 @@ import sys
 # print(chr(104))
 
 
-@outer
 def test():
-    print('name')
+    # print('hello')
+    test()
 
 
 test()

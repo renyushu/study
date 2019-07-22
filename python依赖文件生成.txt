@@ -1,0 +1,15 @@
+
+
+如何根据依赖文件安装python依赖：
+    pip install -r requirements.txt
+
+
+如何生成python依赖文件：
+
+1，pip freeze > requirements.txt
+    生成当前环境下所有依赖文件
+
+
+2，pip install pipreqs
+    pipreqs .
+
