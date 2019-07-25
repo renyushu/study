@@ -31,9 +31,14 @@ question3: 安装carthage   brew install Carthage
 
 question4:  source .bash_profile
 
-question5:  open is not installed
+question5:  opencv is not installed
             解决办法：npm -g install opencv4nodejs
 
+10, bash和zsh同时存在，使用zsh：.bash_profile配置文件不生效时，修改 .zshrc 增加: source ~/.bash_profile
+
+    ref:  https://blog.csdn.net/weixin_42358062/article/details/83552365
 
 
+###############################
 
+appium的介绍：https://testerhome.com/topics/2077

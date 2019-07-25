@@ -1,0 +1,26 @@
+
+Linux禅道搭建
+0,https://www.zentao.net/book/zentaopmshelp/90.html(官方教程)
+
+1, 查看内核版本：cat /proc/version
+
+2, 查看Linux系统版本的命令：cat /etc/issue
+
+3, wget: Linux下文件下载工具
+	用法：wget http://dl.cnezsoft.com/zentao/11.6/ZenTaoPMS.11.6.stable.zbox_old.64.tar.gz(下载禅道一键安装包)
+
+
+4，Linux防火墙关闭
+	查看防火墙状态：service iptables status
+	关闭防火墙   service iptables stop
+
+5,centos关闭selinux
+	https://blog.51cto.com/doiido/1554485
+
+
+
+/opt/zbox/zbox -ap 8098 -mp 3309(修改apache端口为：8090, mysql: 3309)
+
+http://192.168.3.131:8098/
+admin
+Admin123456

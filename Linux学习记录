@@ -1,0 +1,24 @@
+Linux禅道搭建
+0, curl:它支持文件的上传和下载，是综合传输工具，但按传统，习惯称url为下载工具
+    curl -o
+
+1, 查看内核版本：cat /proc/version
+
+2, 查看Linux系统版本的命令：cat /etc/issue
+
+3, wget: Linux下文件下载工具
+	用法：wget http://dl.cnezsoft.com/zentao/11.6/ZenTaoPMS.11.6.stable.zbox_old.64.tar.gz(下载禅道一键安装包)
+
+
+4，Linux防火墙关闭
+	查看防火墙状态：service iptables status
+	关闭防火墙   service iptables stop
+
+5,centos关闭selinux
+	https://blog.51cto.com/doiido/1554485
+
+6, mysql
+    查看版本：mysql -V
+
+
+7,
