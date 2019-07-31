@@ -1,0 +1,13 @@
+
+1,安装jenkins
+    brew install jenkins
+
+    查找jenkins war地址
+        mdfind -name jenkins.war
+
+    passwd
+        0e3b5c692c234c14b7a47f7f5f9f2850
+
+
+    renyushu(admin可能是这个用户名)
+        admin123456

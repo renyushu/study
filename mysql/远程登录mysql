@@ -1,0 +1,17 @@
+
+1,本地登录
+    mysql -u root -p
+
+
+2,指定IP地址和端口号登录MySql数据库
+    mysql -h ip -u root -p -P 3306
+
+3,  mysql常用命令
+    use databasename; 选择数据库
+
+    show tables; 显示表
+
+
+     显示所有数据库 : show databases;
+
+

@@ -1,0 +1,20 @@
+
+1，通过命令行来查看当前Linux系统的可用shell
+    cat /etc/shells
+
+2，查看当前linux默认的shell
+   echo $SHELL
+       SHELL: 是linux系统中的环境变量，它指明了当前使用的Shell程序的位置，也就是使用的哪个shell
+       echo 是一个shell命令，用来输出变量的值
+
+
+3, 第一个shell脚本
+    '''
+
+        #!/bin/bash
+            #!是一个约定的标记，它告诉系统这个脚本需要什么解释器来执行，即使用哪一种shell。
+        echo "Hello World!"
+            输出文本
+
+    '''
+
