@@ -42,3 +42,9 @@ question5:  opencv is not installed
 ###############################
 
 appium的介绍：https://testerhome.com/topics/2077
+
+
+问题5，命令行启动和关闭appium
+ 命令行启动appium:		 appium&
+   关闭appium:   	查看端口号是否被占用  lsof -i:4723；然后杀进程 kill -9 pid
+
