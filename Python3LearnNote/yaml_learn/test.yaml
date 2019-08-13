@@ -1,0 +1,27 @@
+#pi: 3.21
+#'bool': 'true'
+
+#-
+#  - java
+#  - python
+#  - 89
+#
+#-
+#  - true
+#  - 12.34
+
+
+#companies:
+#    -
+#        id: 1
+#        name: company1
+#        price: 200W
+#    -
+#        id: 2
+#        name: company2
+#        price: ~ # ~表示null
+#        stri: hhhhhhhhhh
+#              hhhhhhhlllll
+
+
+

@@ -20,3 +20,13 @@ eg:
 
 
 """
+import os
+import yaml
+
+
+dir_path = os.path.abspath(os.path.dirname(__file__))
+path = os.path.join(dir_path, 'test.yaml')
+# print(path)
+f = open(path)
+data = yaml.load(f, Loader=yaml.FullLoader)
+print(data)

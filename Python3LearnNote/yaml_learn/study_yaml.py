@@ -34,19 +34,29 @@ print(yaml.dump(py_obj, ))
     
 支持的数据结构：
     1，对象，键值对
+        
+        
     2，数组
     3，纯量
         最基本的，不可再分的值
             字符串/布尔值/整数/浮点数/Null/时间/日期
                 float
-                    number: 12.30  --> yaml: {number:12.30}
+                    'number': '12.30'  --> yaml: {'number': '12.30'}
+                    
                 boolean
-                    isSet: true --> yaml: {isSet: true}
+                    isSet: true --> yaml: {'isSet': true}
+                    
                 int
+                    'int': 12 --> {'int': 12}
+                    
+                date:
+                    
+                time:
                 
-                
+                        
+                   
     yaml允许使用两个感叹号，强制转换数据类型    
-        e: !!str 123 --> yaml {e: '123}
+        e: !!str 123 --> yaml {e: '123'}
 
 # 表示注释，从这个字符一直到行尾，都会被解析器忽略。
 
