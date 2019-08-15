@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70afd393-738b-4faf-8161-ee438e14c96b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/jingcheng/duojingcheng.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/jingcheng/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/learncode/sender.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/learncode/wechat_demo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_auto_learn/airtest-ide学习" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_auto_learn/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/findchange_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/findfile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python3LearnNote/learncode/daoru.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python3LearnNote/learncode/memyichu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_auto_learn/aritest_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_auto_learn/get_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_auto_learn/log/test1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui_auto_learn/test02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/list_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/learncode/list_learn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/digui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/learncode/digui.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/thismod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/learncode/thismod.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/yaml_learn/study_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/yaml_learn/study_yaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/yaml_learn/test.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/yaml_learn/test.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/yaml_learn/yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/yaml_learn/y.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_auto_learn/airtest-ide学习" beforeDir="false" afterPath="$PROJECT_DIR$/ui_auto_learn/airtest-ide学习" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_auto_learn/log/1565660357592.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_auto_learn/log/1565660359950.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_auto_learn/log/log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui_auto_learn/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_auto_learn/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,14 +27,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/study$digui.coverage" NAME="digui Coverage Results" MODIFIED="1564625163895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
+    <SUITE FILE_PATH="coverage/study$get_ui.coverage" NAME="get_ui Coverage Results" MODIFIED="1565835317020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui_auto_learn" />
+    <SUITE FILE_PATH="coverage/study$digui.coverage" NAME="digui Coverage Results" MODIFIED="1565679962781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
     <SUITE FILE_PATH="coverage/study$yaml.coverage" NAME="yaml Coverage Results" MODIFIED="1565331239709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/yaml_learn" />
+    <SUITE FILE_PATH="coverage/study$aritest_demo.coverage" NAME="aritest_demo Coverage Results" MODIFIED="1565770239180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui_auto_learn" />
     <SUITE FILE_PATH="coverage/study$Unittests_for_test_Test_test03.coverage" NAME="Unittests for test.Test.test03 Coverage Results" MODIFIED="1560172042715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unintest_learn" />
     <SUITE FILE_PATH="coverage/study$list_demo.coverage" NAME="list_demo Coverage Results" MODIFIED="1561105651400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/study$wenjian_guilei.coverage" NAME="wenjian_guilei Coverage Results" MODIFIED="1561391497075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
+    <SUITE FILE_PATH="coverage/study$daoru.coverage" NAME="daoru Coverage Results" MODIFIED="1565689315198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
     <SUITE FILE_PATH="coverage/study$global_demo.coverage" NAME="global_demo Coverage Results" MODIFIED="1561096184316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interview" />
     <SUITE FILE_PATH="coverage/study$contrast_lib.coverage" NAME="contrast_lib Coverage Results" MODIFIED="1561605712121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
-    <SUITE FILE_PATH="coverage/study$test.coverage" NAME="test Coverage Results" MODIFIED="1565596536340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/jingcheng" />
+    <SUITE FILE_PATH="coverage/study$test.coverage" NAME="test Coverage Results" MODIFIED="1565771888557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui_auto_learn" />
     <SUITE FILE_PATH="coverage/study$new_lib_push.coverage" NAME="new_lib_push Coverage Results" MODIFIED="1561690958759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
     <SUITE FILE_PATH="coverage/study$datetime_learn.coverage" NAME="datetime_learn Coverage Results" MODIFIED="1561965203795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
     <SUITE FILE_PATH="coverage/study$tk_demo.coverage" NAME="tk_demo Coverage Results" MODIFIED="1561626192538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
@@ -41,6 +48,7 @@
     <SUITE FILE_PATH="coverage/study$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1565660351245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui_auto_learn" />
     <SUITE FILE_PATH="coverage/study$list_learn.coverage" NAME="list_learn Coverage Results" MODIFIED="1565264471175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
     <SUITE FILE_PATH="coverage/study$csv_learn.coverage" NAME="csv_learn Coverage Results" MODIFIED="1562117878108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
+    <SUITE FILE_PATH="coverage/study$test02.coverage" NAME="test02 Coverage Results" MODIFIED="1565788963983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui_auto_learn" />
     <SUITE FILE_PATH="coverage/study$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1563255158413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/unintest_learn" />
     <SUITE FILE_PATH="coverage/study$show_py_lib.coverage" NAME="show_py_lib Coverage Results" MODIFIED="1561622909693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
     <SUITE FILE_PATH="coverage/study$timing_send_joke.coverage" NAME="timing_send_joke Coverage Results" MODIFIED="1562072098005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wechatproject" />
@@ -52,13 +60,15 @@
     <SUITE FILE_PATH="coverage/study$locustfile.coverage" NAME="locustfile Coverage Results" MODIFIED="1564987524703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/performance" />
     <SUITE FILE_PATH="coverage/study$for_demo.coverage" NAME="for_demo Coverage Results" MODIFIED="1561103355321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/study$lambda_learn.coverage" NAME="lambda_learn Coverage Results" MODIFIED="1564646587409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
-    <SUITE FILE_PATH="coverage/study$thismod.coverage" NAME="thismod Coverage Results" MODIFIED="1563868119275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
+    <SUITE FILE_PATH="coverage/study$thismod.coverage" NAME="thismod Coverage Results" MODIFIED="1565689418646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
     <SUITE FILE_PATH="coverage/study$quick_key.coverage" NAME="quick_key Coverage Results" MODIFIED="1561555315723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
+    <SUITE FILE_PATH="coverage/study$findfile.coverage" NAME="findfile Coverage Results" MODIFIED="1565747466442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/cookbook" />
     <SUITE FILE_PATH="coverage/study$Unittests_in_test_mathfunc_py.coverage" NAME="Unittests in test_mathfunc.py Coverage Results" MODIFIED="1563255855628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/unintest_learn" />
     <SUITE FILE_PATH="coverage/study$study_yaml.coverage" NAME="study_yaml Coverage Results" MODIFIED="1565090573364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote" />
     <SUITE FILE_PATH="coverage/study$Unittests_for_test_Test.coverage" NAME="Unittests for test.Test Coverage Results" MODIFIED="1560175882042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/unintest_learn" />
     <SUITE FILE_PATH="coverage/study$duojingcheng.coverage" NAME="duojingcheng Coverage Results" MODIFIED="1565592220754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/jingcheng" />
     <SUITE FILE_PATH="coverage/study$wechat_demo.coverage" NAME="wechat_demo Coverage Results" MODIFIED="1565593431832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
+    <SUITE FILE_PATH="coverage/study$memyichu.coverage" NAME="memyichu Coverage Results" MODIFIED="1565665708574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
     <SUITE FILE_PATH="coverage/study$tool.coverage" NAME="tool Coverage Results" MODIFIED="1561623302170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
     <SUITE FILE_PATH="coverage/study$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1563265439987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote" />
     <SUITE FILE_PATH="coverage/study$c_to_f.coverage" NAME="c_to_f Coverage Results" MODIFIED="1561555593379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
@@ -85,6 +95,7 @@
     <SUITE FILE_PATH="coverage/study$decorator_log.coverage" NAME="decorator_log Coverage Results" MODIFIED="1562896857198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
     <SUITE FILE_PATH="coverage/study$print_name.coverage" NAME="print_name Coverage Results" MODIFIED="1561113725373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/study$Unittests_for_paramunittest_demo_TestBar.coverage" NAME="Unittests for paramunittest_demo.TestBar Coverage Results" MODIFIED="1565094086520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/unintest_learn" />
+    <SUITE FILE_PATH="coverage/study$test05.coverage" NAME="test05 Coverage Results" MODIFIED="1565790879774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ui_auto_learn" />
     <SUITE FILE_PATH="coverage/study$two_num_sum.coverage" NAME="two_num_sum Coverage Results" MODIFIED="1562123960291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/leetcode" />
   </component>
   <component name="DatabaseView">
@@ -104,85 +115,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/yaml_learn/study_yaml.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="52" column="20" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/yaml_learn/y.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
-              <folding>
-                <element signature="e#239#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/yaml_learn/test.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/wechat_demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/jingcheng/duojingcheng.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/jingcheng/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="1" selection-start-line="12" selection-start-column="23" selection-end-line="13" selection-end-column="1" />
-              <folding>
-                <element signature="e#43#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui_auto_learn/airtest-ide学习">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui_auto_learn/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="266">
+              <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="35" />
               <folding>
                 <element signature="e#50#80#0" expanded="true" />
               </folding>
@@ -191,10 +127,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/sender.py">
+        <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/site-packages/poco/proxy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="168" column="25" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui_auto_learn/test02.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui_auto_learn/get_ui.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui_auto_learn/test05.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#50#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui_auto_learn/aritest_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/site-packages/airtest/core/__init__.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui_auto_learn/airtest-ide学习">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -226,14 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Python3LearnNote/unintest_learn/mathfunc.py" />
-        <option value="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_mathfunc.py" />
-        <option value="$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/HTMLTestRunner.py" />
-        <option value="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_suite.py" />
-        <option value="$PROJECT_DIR$/LearnANDTest/test_methond.py" />
-        <option value="$PROJECT_DIR$/LearnANDTest/test_methond_to_report.py" />
-        <option value="$PROJECT_DIR$/Python3LearnNote/run_all.py" />
-        <option value="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py" />
         <option value="$PROJECT_DIR$/mugglecode/tool.py" />
         <option value="$PROJECT_DIR$/git_learn/git学习.py" />
         <option value="$PROJECT_DIR$/os_test.py" />
@@ -242,7 +229,6 @@
         <option value="$PROJECT_DIR$/linux下禅道搭建.txt" />
         <option value="$PROJECT_DIR$/Linux学习记录" />
         <option value="$PROJECT_DIR$/Python3LearnNote/learncode/string_method.py" />
-        <option value="$PROJECT_DIR$/Python3LearnNote/learncode/thismod.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/learncode/name_space.py" />
         <option value="$PROJECT_DIR$/pythonlearnplan" />
         <option value="$PROJECT_DIR$/wechatproject/timing_send_joke.py" />
@@ -253,7 +239,6 @@
         <option value="$PROJECT_DIR$/mac搭建jenkins" />
         <option value="$PROJECT_DIR$/shell学习记录" />
         <option value="$PROJECT_DIR$/interview/python_interview.py" />
-        <option value="$PROJECT_DIR$/Python3LearnNote/learncode/digui.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/learncode/lambda_learn.py" />
         <option value="$PROJECT_DIR$/5why分析法" />
         <option value="$PROJECT_DIR$/开源性能测试工具locust使用.py" />
@@ -267,7 +252,6 @@
         <option value="$PROJECT_DIR$/Python3LearnNote/unintest_learn/paramunittest_demo.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/learncode/hello.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/learncode/list_learn.py" />
-        <option value="$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt" />
         <option value="$PROJECT_DIR$/Python3LearnNote/yaml_learn/yaml.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/yaml_learn/study_yaml.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/yaml_learn/test.yaml" />
@@ -275,14 +259,25 @@
         <option value="$PROJECT_DIR$/Python3LearnNote/learncode/wechat_demo.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/jingcheng/duojingcheng.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/jingcheng/test.py" />
-        <option value="$PROJECT_DIR$/ui_auto_learn/airtest-ide学习" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/learncode/memyichu.py" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/learncode/digui.py" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/learncode/daoru.py" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/learncode/thismod.py" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/cookbook/findfile.py" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/cookbook/findchange_file.py" />
+        <option value="$PROJECT_DIR$/ui_auto_learn/aritest_demo.py" />
         <option value="$PROJECT_DIR$/ui_auto_learn/test.py" />
+        <option value="$PROJECT_DIR$/ui_auto_learn/airtest-ide学习" />
+        <option value="$PROJECT_DIR$/ui_auto_learn/test02.py" />
+        <option value="$PROJECT_DIR$/ui_auto_learn/test05.py" />
+        <option value="$PROJECT_DIR$/ui_auto_learn/get_ui.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1400" />
+    <option name="width" value="1403" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -303,7 +298,24 @@
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="Python3LearnNote" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="Python3LearnNote" type="462c0819:PsiDirectoryNode" />
+              <item name="learncode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="ui_auto_learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="ui_auto_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="test04.py.air" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -348,8 +360,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
-    <configuration name="duojingcheng" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.get_ui">
+    <configuration name="aritest_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,12 +369,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3LearnNote/jingcheng" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui_auto_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3LearnNote/jingcheng/duojingcheng.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_auto_learn/aritest_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -371,7 +383,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sender" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="get_ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -379,12 +391,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3LearnNote/learncode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui_auto_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3LearnNote/learncode/sender.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_auto_learn/get_ui.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,7 +405,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -415,7 +427,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test02" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -423,12 +435,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3LearnNote/jingcheng" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui_auto_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3LearnNote/jingcheng/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_auto_learn/test02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -437,7 +449,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="wechat_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test05" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -445,12 +457,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3LearnNote/learncode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui_auto_learn" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3LearnNote/learncode/wechat_demo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_auto_learn/test05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -461,11 +473,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (1)" />
+        <item itemvalue="Python.get_ui" />
+        <item itemvalue="Python.test05" />
+        <item itemvalue="Python.test02" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.sender" />
-        <item itemvalue="Python.wechat_demo" />
-        <item itemvalue="Python.duojingcheng" />
+        <item itemvalue="Python.aritest_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -502,7 +514,8 @@
       <workItem from="1564981932576" duration="4750000" />
       <workItem from="1565055419347" duration="12323000" />
       <workItem from="1565147014941" duration="13950000" />
-      <workItem from="1565576656205" duration="12309000" />
+      <workItem from="1565576656205" duration="15831000" />
+      <workItem from="1565677570501" duration="16468000" />
     </task>
     <servers />
   </component>
@@ -539,7 +552,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="265020000" />
+    <option name="totallyTimeSpent" value="285010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,15 +564,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1400" height="877" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1403" height="877" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.1730486" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.17413667" />
       <window_info id="Structure" order="1" sideWeight="0.5062389" side_tool="true" weight="0.17823948" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972662" weight="0.50325096" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972662" weight="0.59817946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.396619" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -568,8 +580,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32982087" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50027335" side_tool="true" weight="0.40885141" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27828348" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.25877762" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.31079325" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.28218466" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -606,103 +618,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/linux下禅道搭建.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/git_learn/git学习.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/string_method.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wechatproject/timing_send_joke.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/global_demo.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pythonlearnplan">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/thismod.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/name_space.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mysql/远程登录mysql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell_learn_note/shell学习笔记">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Linux学习记录">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mac搭建jenkins">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shell学习记录">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interview/python_interview.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ubuntu下搭建jenkins">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -803,13 +718,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/digui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -875,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1316">
-          <caret line="202" column="27" selection-start-line="202" selection-start-column="27" selection-end-line="202" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/site-packages/yaml/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -919,13 +820,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/jingcheng/duojingcheng.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/wechat_demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -953,19 +847,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui_auto_learn/airtest-ide学习">
+    <entry file="file://$PROJECT_DIR$/ui_auto_learn/log/1565660357592.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/memyichu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/jingcheng/duojingcheng.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/digui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/daoru.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/thismod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/cookbook/findfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/cookbook/findchange_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/site-packages/airtest/core/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/site-packages/airtest/core/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_auto_learn/aritest_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_auto_learn/airtest-ide学习">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="28" column="64" selection-start-line="28" selection-start-column="64" selection-end-line="28" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_auto_learn/test05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#50#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/site-packages/poco/proxy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="168" column="25" selection-start-line="168" selection-start-column="20" selection-end-line="168" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_auto_learn/test02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui_auto_learn/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="15" selection-end-column="35" />
           <folding>
             <element signature="e#50#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_auto_learn/get_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="31" lean-forward="true" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

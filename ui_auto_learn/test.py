@@ -2,20 +2,22 @@
 __author__ = "yushufeng"
 
 from airtest.core.api import *
+from airtest.core.api import connect_device
 from airtest.cli.parser import cli_setup
 from poco.drivers.android.uiautomation import AndroidUiautomationPoco
-poco = AndroidUiautomationPoco()
 
 
-if not cli_setup():
-    auto_setup(__file__, logdir=True, devices=[
-            "Android://127.0.0.1:5037/271cc935e1217ece",
-    ])
+# if not cli_setup():
+#     auto_setup(__file__, logdir=True, devices=[
+#             "Android://127.0.0.1:5037/271cc935e1217ece",
+#     ])
 
-
+dev = connect_device('Android://127.0.0.1:5037/271cc935e1217ece')
+poco = AndroidUiautomationPoco(dev)
 # script content
 print("start...")
 
+start_app('com.movies.hydq')
 
 # generate html report
 # from airtest.report.report import simple_report
