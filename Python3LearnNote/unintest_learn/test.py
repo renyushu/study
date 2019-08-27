@@ -25,9 +25,27 @@
 # # if __name__ == '__main__':
 # #     unittest.main(verbosity=2)
 
-import os
+# import os
+#
+#
+# p = os.fspath(os.path.abspath(__file__))
+# print(p)
+# print(os.path.abspath('.'))
+
+import unittest
 
 
-p = os.fspath(os.path.abspath(__file__))
-print(p)
-print(os.path.abspath('.'))
+class Test(unittest.TestCase):
+
+    def setUp(self):
+        print('run case')
+
+    def tearDown(self):
+        print('case end')
+
+    def test_test(self):
+        self.assertEqual(1, 1)
+
+
+if __name__ == '__main__':
+    unittest.main()

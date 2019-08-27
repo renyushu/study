@@ -35,20 +35,24 @@ import os
 
 
 
-# 获取当前目录
-path = os.getcwd() # /Users/yushufeng/study/Python3LearnNote/learncode
-# print(path)
-# print(os.path.abspath(os.path.dirname(__file__)))
+# # 获取当前目录
+# path = os.getcwd() # /Users/yushufeng/study/Python3LearnNote/learncode
+# # print(path)
+# # print(os.path.abspath(os.path.dirname(__file__)))
+#
+# # 获取上级目录
+# # print(os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
+# print(os.path.abspath(os.path.join(os.getcwd(), "..")))
+#
+# # os.path.join
+# # 注意：会从第一个以"/"开头的参数开始拼接，之前的参数全部丢弃
+#
+# # dirname
+# # 去掉文件名，返回目录
+# # print(os.path.abspath(os.path.dirname(os.getcwd())))
+# p1 = "/user/jack/app/"
+# # print(os.path.dirname(p1))
 
-# 获取上级目录
-# print(os.path.abspath(os.path.dirname(os.path.dirname(__file__))))
-print(os.path.abspath(os.path.join(os.getcwd(), "..")))
 
-# os.path.join
-# 注意：会从第一个以"/"开头的参数开始拼接，之前的参数全部丢弃
+from Python3LearnNote.os_module_learn.os_learn import get_home_path
 
-# dirname
-# 去掉文件名，返回目录
-# print(os.path.abspath(os.path.dirname(os.getcwd())))
-p1 = "/user/jack/app/"
-# print(os.path.dirname(p1))
