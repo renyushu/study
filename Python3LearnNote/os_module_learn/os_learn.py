@@ -44,8 +44,48 @@
 # #     p = Path()
 # #     work = p.cwd()
 # #     return work
-import os
+# import os
+#
+# p = os.path.relpath('os_test.py')
+#
+# print(p)
 
-p = os.path.relpath('os_test.py')
 
-print(p)
+# import time
+# N = 1000
+# for i in range(N):
+#     print("进度:{0}%".format(round((i + 1) * 100 / N)), end="\r")
+#     time.sleep(0.01)
+
+
+# import time
+# N = 1000
+# st = time.clock()
+# for i in range(N):
+#     p = round((i + 1) * 100 / N)
+#     duration = round(time.clock() - st, 2)
+#     remaining = round(duration * 100 / (0.01 + p) - duration, 2)
+#     print("进度:{0}%，已耗时:{1}s，预计剩余时间:{2}s".format(p, duration, remaining), end="\r")
+#     time.sleep(0.01)
+
+# import time
+# import progressbar
+# p = progressbar.ProgressBar()
+# N = 1000
+# for i in p(range(N)):
+#     time.sleep(0.01)
+
+
+# import time
+# import progressbar
+# # p = progressbar.ProgressBar()
+# # N = time.sleep(3)
+# # p.start(N)
+# # for i in range(N):
+# #     time.sleep(0.01)
+# #     p.update(i+1)
+# # p.finish()
+#
+# for i in progressbar.progressbar(range(5)):
+#     time.sleep(1)
+

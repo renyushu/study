@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70afd393-738b-4faf-8161-ee438e14c96b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/HTMLTestRunner.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/yaml_learn/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/study.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/study.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/os_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/os_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_mathfunc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_mathfunc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_auto_learn/test03.air/test03.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_auto_learn/test03.air/test03.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_auto_learn/test05.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_auto_learn/test05.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +46,7 @@
     <SUITE FILE_PATH="coverage/study$locustfile.coverage" NAME="locustfile Coverage Results" MODIFIED="1564987524703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/performance" />
     <SUITE FILE_PATH="coverage/study$for_demo.coverage" NAME="for_demo Coverage Results" MODIFIED="1561103355321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
     <SUITE FILE_PATH="coverage/study$lambda_learn.coverage" NAME="lambda_learn Coverage Results" MODIFIED="1564646587409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
+    <SUITE FILE_PATH="coverage/study$iterationanditerable.coverage" NAME="iterationanditerable Coverage Results" MODIFIED="1567128405806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote" />
     <SUITE FILE_PATH="coverage/study$thismod.coverage" NAME="thismod Coverage Results" MODIFIED="1565689418646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/learncode" />
     <SUITE FILE_PATH="coverage/study$Unittests_in_test_class_py.coverage" NAME="Unittests in test_class.py Coverage Results" MODIFIED="1566617020916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/unintest_learn" />
     <SUITE FILE_PATH="coverage/study$quick_key.coverage" NAME="quick_key Coverage Results" MODIFIED="1561555315723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
@@ -69,7 +60,7 @@
     <SUITE FILE_PATH="coverage/study$tool.coverage" NAME="tool Coverage Results" MODIFIED="1561623302170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
     <SUITE FILE_PATH="coverage/study$run_all.coverage" NAME="run_all Coverage Results" MODIFIED="1563265439987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote" />
     <SUITE FILE_PATH="coverage/study$c_to_f.coverage" NAME="c_to_f Coverage Results" MODIFIED="1561555593379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
-    <SUITE FILE_PATH="coverage/study$os_learn.coverage" NAME="os_learn Coverage Results" MODIFIED="1566906731815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/os_module_learn" />
+    <SUITE FILE_PATH="coverage/study$os_learn.coverage" NAME="os_learn Coverage Results" MODIFIED="1567074808303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python3LearnNote/os_module_learn" />
     <SUITE FILE_PATH="coverage/study$1.coverage" NAME="1 Coverage Results" MODIFIED="1561366024614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
     <SUITE FILE_PATH="coverage/study$speed_monitor.coverage" NAME="speed_monitor Coverage Results" MODIFIED="1562917443602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mugglecode" />
     <SUITE FILE_PATH="coverage/study$dict_demo.coverage" NAME="dict_demo Coverage Results" MODIFIED="1561109240439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/loop" />
@@ -113,22 +104,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_mathfunc.py">
+        <entry file="file://$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="38" column="45" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="45" />
-              <folding>
-                <element signature="e#783#836#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1729">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py">
+        <entry file="file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="50" column="8" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="8" />
+            <state relative-caret-position="684">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -137,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/Python3LearnNote/yaml_learn/test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="57">
-              <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -145,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
+            <state relative-caret-position="1102">
               <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -157,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_suite.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="719">
-              <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="55" />
+            <state relative-caret-position="988">
+              <caret line="52" column="55" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="55" />
               <folding>
                 <element signature="e#26#85#0" expanded="true" />
               </folding>
@@ -169,7 +157,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/HTMLTestRunner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6455">
+            <state relative-caret-position="14839">
               <caret line="781" selection-start-line="781" selection-end-line="781" />
               <folding>
                 <element signature="e#3187#3202#0" expanded="true" />
@@ -190,7 +178,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/unittest学习笔记">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="228">
               <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
             </state>
           </provider>
@@ -242,7 +230,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mysql/远程登录mysql" />
         <option value="$PROJECT_DIR$/shell_learn_note/shell学习笔记" />
         <option value="$PROJECT_DIR$/ubuntu下搭建jenkins" />
         <option value="$PROJECT_DIR$/mac搭建jenkins" />
@@ -293,6 +280,7 @@
         <option value="$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_test.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/yaml_learn/test.py" />
         <option value="$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py" />
+        <option value="$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py" />
       </list>
     </option>
   </component>
@@ -310,6 +298,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -332,13 +321,13 @@
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="Python3LearnNote" type="462c0819:PsiDirectoryNode" />
-              <item name="os_module_learn" type="462c0819:PsiDirectoryNode" />
+              <item name="jingcheng" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
               <item name="study" type="462c0819:PsiDirectoryNode" />
               <item name="Python3LearnNote" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
+              <item name="os_module_learn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="study" type="b2602c69:ProjectViewProjectNode" />
@@ -356,7 +345,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,7 +378,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.os_learn">
+  <component name="RunManager" selected="Python.iterationanditerable">
+    <configuration name="iterationanditerable" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="study" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3LearnNote" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="os_learn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="study" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -472,28 +482,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="study" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python3LearnNote/unintest_learn" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Python3LearnNote/unintest_learn/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.iterationanditerable" />
         <item itemvalue="Python.os_learn" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.test_mathfunc" />
         <item itemvalue="Python tests.Unittests for test.Test" />
-        <item itemvalue="Python tests.Unittests in test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -537,7 +532,10 @@
       <workItem from="1566289759768" duration="2048000" />
       <workItem from="1566616563515" duration="1212000" />
       <workItem from="1566885115187" duration="2307000" />
-      <workItem from="1566889080735" duration="5645000" />
+      <workItem from="1566889080735" duration="6542000" />
+      <workItem from="1567072584298" duration="1433000" />
+      <workItem from="1567080850325" duration="2506000" />
+      <workItem from="1567142823484" duration="145000" />
     </task>
     <servers />
   </component>
@@ -574,7 +572,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="301674000" />
+    <option name="totallyTimeSpent" value="306655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -589,12 +587,12 @@
     <frame x="-1920" y="-157" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.19382322" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49376115" visible="true" weight="0.14536741" />
       <window_info id="Structure" order="1" sideWeight="0.5062389" side_tool="true" weight="0.17823948" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972662" visible="true" weight="0.33930454" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49972662" weight="0.32139093" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39620653" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -708,24 +706,90 @@
           <line>20</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>22</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>20</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Library/Caches/PyCharm2018.3/python_stubs/-593459003/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="213" column="13" selection-start-line="213" selection-start-column="13" selection-end-line="213" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/learncode/list_learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.local/share/virtualenvs/py3-oZKG8gj6/lib/python3.7/site-packages/yaml/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1009,33 +1073,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_mathfunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
+        <state relative-caret-position="722">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="e#783#836#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/mathfunc.py">
+    <entry file="file:///usr/local/lib/python3.7/site-packages/progressbar/bar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="11153">
+          <caret line="598" column="8" selection-start-line="598" selection-start-column="8" selection-end-line="598" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/unittest学习笔记">
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="1729">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/yaml_learn/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1102">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_suite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="719">
-          <caret line="52" column="55" lean-forward="true" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="55" />
+        <state relative-caret-position="988">
+          <caret line="52" column="55" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="55" />
           <folding>
             <element signature="e#26#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14839">
+          <caret line="781" selection-start-line="781" selection-end-line="781" />
+          <folding>
+            <element signature="e#3187#3202#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1047,47 +1141,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/HTMLTestRunner.py">
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/unittest学习笔记">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6455">
-          <caret line="781" selection-start-line="781" selection-end-line="781" />
-          <folding>
-            <element signature="e#3187#3202#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_test.py">
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/mathfunc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/yaml_learn/test.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="22" lean-forward="true" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="589">
+          <caret line="38" column="8" selection-start-line="38" selection-start-column="8" selection-end-line="38" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/unintest_learn/test_mathfunc.py">
+    <entry file="file://$PROJECT_DIR$/Python3LearnNote/iterationanditerable.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="38" column="45" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="45" />
-          <folding>
-            <element signature="e#783#836#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="50" column="8" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="8" />
+        <state relative-caret-position="684">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
