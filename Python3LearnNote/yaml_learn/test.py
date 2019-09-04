@@ -1,4 +1,8 @@
-from Python3LearnNote.os_module_learn.os_learn import get_home_path
+def func(i):
+    if isinstance(i, int):
+        func(i)
+    else:
+        print(str(i))
 
 
-print(get_home_path())
+func(3)

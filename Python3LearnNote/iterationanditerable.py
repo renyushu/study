@@ -34,3 +34,37 @@
 # for item in f1():
 #     print(item)
 
+# 生成器机制：一边循环一边计算
+#
+# L = [x * x for x in range(10)]
+# print(L)
+#
+# L2 = (x * x for x in range(10))
+#
+# for i in L2: # 生成器是可迭代对象
+#     print(i)
+
+def fib(max):
+    n, a, b = 0, 0, 1
+    while n < max:
+        yield b
+        a, b = b, a + b
+        n = n + 1
+    return 'done'
+
+# print(fib(3)) # 生成器执行机制：每次调用next()的时候执行，遇到yield返回
+            # 调用generator时：首先要生成一个generator对象，然后用next()函数不断获得下一个返回值
+            # 一般不使用next()来迭代，而是使用for循环来迭代
+
+
+# for i in fib(5):
+    # print(i)
+
+g = fib(6)
+while True:
+    try:
+        x = next(g)
+        print('g: ', x)
+    except StopIteration as e:
+        print('Generator return value:', e.value)
+        break

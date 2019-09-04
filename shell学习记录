@@ -18,3 +18,12 @@
 
     '''
 
+day 1
+
+    - 管道 | 符号
+        可以在两个程序之间建立管道pipline: who的输出，成了wc的输入
+
+        #cat > nusers cat 是输出文件内容的命令，>nusers 表示把内容送到文件 nusers 里而不是默认的屏幕。但是这里 cat 后面没有参数，意味着 cat 将从键盘读取数据输入到 nusers 中，以 CTRL+D 结束。
+
+day 2
+    - 

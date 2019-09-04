@@ -1,0 +1,18 @@
+思路
+
+- 基于网易的开源框架Airtest和Poco
+- 采用page object模式封装设计case
+- 使用unittest框架组织用例
+- 使用beautifulreport生成测试报告
+- 使用loggin模块记录运行日志
+
+自动化工程结构：
+
+- lib
+    - 核心代码
+- resource
+    - UI/元素
+- report
+- case
+- tools
+config

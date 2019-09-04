@@ -52,7 +52,22 @@ import os
 # # print(os.path.abspath(os.path.dirname(os.getcwd())))
 # p1 = "/user/jack/app/"
 # # print(os.path.dirname(p1))
+import os
 
 
-from Python3LearnNote.os_module_learn.os_learn import get_home_path
+def print_directory_contents(s_path):
+    """
+    这个函数接收文件夹的名称作为输入参数
+    返回该文件夹中文件的路径
+    以及其包含文件夹中文件的路径
+    """
+    for s_child in os.listdir(s_path):
+        s_child_path = os.path.join(s_path, s_child)
+        if os.path.isdir(s_child_path):
+            print_directory_contents(s_child_path)
+        else:
+            print(s_child_path)
 
+
+print_directory_contents('/Users/yushufeng/study/ui_auto_learn')
+# print(os.listdir('../..'))

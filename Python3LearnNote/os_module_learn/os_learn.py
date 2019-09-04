@@ -89,3 +89,40 @@
 # for i in progressbar.progressbar(range(5)):
 #     time.sleep(1)
 
+# print("aStr"[::-1])
+
+# L = [1, 2, 3]
+# print(L[len(L)-3])
+# print(-2-1)
+
+L = list(range(100))
+#
+# # 取前10个数
+# print(L[0:10])
+#
+# # 取最后10个数
+# print(L[-10:])
+#
+# print(L[-1])
+#
+# # 取前20~30个数
+# print(L[20:31])
+
+# 取前10个数，两个取一个
+print(L[0:10:2])
+
+# 所有数每5个取一个
+print(L[::5])
+
+# copy list
+print(L[::-1])
+
+#
+
+
+
+
+
+
+
+
