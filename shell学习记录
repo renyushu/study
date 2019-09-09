@@ -26,4 +26,18 @@ day 1
         #cat > nusers cat 是输出文件内容的命令，>nusers 表示把内容送到文件 nusers 里而不是默认的屏幕。但是这里 cat 后面没有参数，意味着 cat 将从键盘读取数据输入到 nusers 中，以 CTRL+D 结束。
 
 day 2
-    - 
+    - #!
+      告诉系统内核用哪个shell以及哪个版本来执行指定的程序
+
+    - \#!/bin/csh
+       执行的是csh脚本
+
+    - #!/bin/sh
+        执行的是shell脚本
+
+    -
+        cat /etc/shells 查看系统默认的shell
+        echo $shell： /bin/bash
+
+day 3
+    -
