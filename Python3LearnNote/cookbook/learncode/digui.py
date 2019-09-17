@@ -28,6 +28,4 @@ def sumtree(L):
 # L = [2, [[[[[23, 344], 4]]]]]
 # print(sumtree(L))
 
-import Python3LearnNote.learncode.daoru
-
 print('digui')

@@ -32,6 +32,4 @@
 #     print(var)
 
 
-from Python3LearnNote.learncode import daoru
-
 print(__name__)

@@ -1,0 +1,10 @@
+2019-09-11 14:05:49,835 - simple_example - DEBUG - debug message
+2019-09-11 14:05:49,835 - simple_example - INFO - info message
+2019-09-11 14:05:49,835 - simple_example - WARNING - warn message
+2019-09-11 14:05:49,835 - simple_example - ERROR - error message
+2019-09-11 14:05:49,835 - simple_example - CRITICAL - critical message
+2019-09-11 14:06:20,555 - simple_example - DEBUG - debug message
+2019-09-11 14:06:20,556 - simple_example - INFO - info message
+2019-09-11 14:06:20,556 - simple_example - WARNING - warn message
+2019-09-11 14:06:20,556 - simple_example - ERROR - error message
+2019-09-11 14:06:20,556 - simple_example - CRITICAL - critical message
