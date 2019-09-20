@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70afd393-738b-4faf-8161-ee438e14c96b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/loop/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/os_module_learn/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/tcp_server.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/python从入门到实践/code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/python从入门到实践/笔记" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/流畅的python/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/流畅的python/code.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/流畅的python/流畅的python.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/流畅的python/生成器表达式.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3LearnNote/流畅的python/读书笔记" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/jingcheng/duojingcheng.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/jingcheng/duojingcheng.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/jingcheng/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/jingcheng/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/QR.png" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/QR.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/classtree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/classtree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/daoru.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/daoru.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/decorator_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/decorator_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/digui.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/digui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/func_uni.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/func_uni.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/lambda_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/lambda_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/lets_multiply.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/lets_multiply.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/list_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/list_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/mem_break.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/mem_break.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/memyichu.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/memyichu.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/name_space.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/name_space.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/sender.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/sender.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/string_method.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/string_method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/thismod.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/thismod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/learncode/wechat_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/wechat_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/loop/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/jingcheng/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/loop/dict_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/loop/dict_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/loop/for_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/loop/for_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/loop/list_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/loop/list_demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/loop/print_name.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/loop/print_name.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/onethr.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/流畅的python/onethr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/os_module_learn/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/learncode/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_learn.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/os_module_learn/os_learn.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/os_module_learn/os_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/cookbook/os_module_learn/os_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/python_string.py" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/python_string.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Python3LearnNote/python学习手册学习笔记.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -382,6 +341,7 @@
       <workItem from="1568281260242" duration="4258000" />
       <workItem from="1568632291931" duration="12000" />
       <workItem from="1568682829135" duration="27000" />
+      <workItem from="1568945846284" duration="700000" />
     </task>
     <servers />
   </component>
